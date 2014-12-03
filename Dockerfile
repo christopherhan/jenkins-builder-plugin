@@ -1,7 +1,6 @@
 # Use the nginx image
-FROM ubuntu
-MAINTAINER Chris Han "chan@zehnergroup.com"
 FROM nginx
+MAINTAINER Chris Han "chan@zehnergroup.com"
 
 #RUN apt-get update -q && apt-get install -qqy curl
 
