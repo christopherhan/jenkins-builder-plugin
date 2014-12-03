@@ -1,4 +1,5 @@
 # Use the nginx image
+FROM ubuntu
 FROM nginx
 MAINTAINER Chris Han "chan@zehnergroup.com"
 
