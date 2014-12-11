@@ -3,4 +3,4 @@ FROM dockerfile/nginx
 MAINTAINER Chris Han "chan@zehnergroup.com"
 
 # Add the locally build files to the container
-ADD ./dist /var/www
+ADD . /var/www
