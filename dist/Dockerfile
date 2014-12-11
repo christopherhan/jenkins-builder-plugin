@@ -4,3 +4,5 @@ MAINTAINER Chris Han "chan@zehnergroup.com"
 
 # Add the locally build files to the container
 ADD . /var/www
+
+CMD ["nginx"]
