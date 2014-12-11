@@ -2,8 +2,9 @@ FROM ubuntu:14.04
 MAINTAINER Chris Han "chan@zehnergroup.com"
 
 # Simulate a built file
-ADD index.html /var/www/dist
+RUN mkdir dist
+ADD index.html dist
 
 # Share the build files on the host
 # This will then be commited to the container with Nginx
-VOLUME ["/var/www/dist"]
+VOLUME ["./dist"]
